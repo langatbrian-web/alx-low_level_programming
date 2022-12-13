@@ -1,13 +1,12 @@
 #include "main.h"
-#include "main.h"
 
 /**
-*putchar - prints putchar
+*printsfirst - prints _putchar
 *
 *Return: always 0
 */
 
-void putchar(void)
+void printsfirst(void)
 {
 	char i = "_putchar";
 
