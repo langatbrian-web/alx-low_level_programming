@@ -4,6 +4,7 @@
  *_strncat - a function that concaternates two string
  * @dest: copy to
  * @src: copy from
+ * @n: n
  * Return: Always 0 (Success)
  */
 char *_strncat(char *dest, char *src, int n)
