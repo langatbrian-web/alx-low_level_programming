@@ -19,7 +19,7 @@ char *rot13(char *s)
 		{
 			if (*(s + i) == alpha[i2])
 			{
-				*(s + 1) = alpha2[i2];
+				*(s + i) = alpha2[i2];
 				break;
 			}
 		}
